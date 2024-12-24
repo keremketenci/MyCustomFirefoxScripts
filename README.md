@@ -16,7 +16,7 @@ To use these scripts, you must first install the <a href="https://github.com/Ari
 
 2. **Add `uc.js` Scripts**:
 
-   - Once the CustomJSforFx extension is installed, add the uc.js script files to your `\chrome\scripts` directory, and make sure to import them into your `\chrome\userChrome.js` file.
+   - Once the CustomJSforFx extension is installed, add the `uc.js` script files to your `\chrome\scripts` directory, and make sure to import them into your `\chrome\userChrome.js` file.
 
 3. **Delete Startup Cache and Restart Firefox**:
    - Delete all the files inside the `startupCache` folder in the `Local directory` of your Firefox profile, and restart Firefox for the scripts function properly.
