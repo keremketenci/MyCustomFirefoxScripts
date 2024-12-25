@@ -7,6 +7,8 @@
   style.textContent = `
         /* sidebar */
         #sidebar-box {
+          --uc-sidebar-min-width: 30px;
+          min-width: var(--uc-sidebar-min-width) !important;
         }
         
         /* sidebarCustom */
