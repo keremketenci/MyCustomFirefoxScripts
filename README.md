@@ -16,7 +16,7 @@ To use these scripts, you must first install the <a href="https://github.com/Ari
 
 2. **Add `uc.js` Scripts**:
 
-   - Once the CustomJSforFx extension is installed, add the uc.js script files to your `\chrome\scripts` directory, and make sure to import them into your `\chrome\userChrome.js` file.
+   - Once the CustomJSforFx extension is installed, add the `uc.js` script files to your `\chrome\scripts` directory, and make sure to import them into your `\chrome\userChrome.js` file.
 
 3. **Delete Startup Cache and Restart Firefox**:
    - Delete all the files inside the `startupCache` folder in the `Local directory` of your Firefox profile, and restart Firefox for the scripts function properly.
@@ -45,3 +45,22 @@ When using the `toggleTabsToolbar.uc.js` script, if the menu bar is not enabled,
 
 - If you do not want the menu bar text to appear in the top-left corner:
   - Use the `hideMenubar.uc.js` script to hide the menu bar.
+
+ ## Screenshots
+
+`toggleTabsToolbar.uc.js` | Key: `Alt + T`
+
+![firefox_7fcgqG7sWn](https://github.com/user-attachments/assets/137c3679-7d2c-402b-bcc3-fda239ac3935)
+
+---
+
+`hideMenubar.uc.js` | Key: `Alt + M`
+
+![firefox_vUy5WQ9F5d](https://github.com/user-attachments/assets/e307a7ea-bb6c-466a-94eb-e35e9deb1c2f)
+
+---
+
+`sidebar.uc.js` | Key: `Alt + Q`
+
+![firefox_kSUn18Z7ly](https://github.com/user-attachments/assets/1bfed45a-d02d-4914-a50c-459dd9996b18)
+
